@@ -1,0 +1,196 @@
+/* first_pic_style */
+.first_pic{
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url(../resources/Banner\ Image.png);
+    width: 1320px;
+    height: 600px;
+    border-radius: 16px;
+    margin: 50px auto;
+}
+.title_1{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    padding-top: 170px;
+    font-weight: 400;
+}
+.title_2{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+     
+}
+.offer , .offer h1{
+    color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 88px;
+font-style: normal;
+font-weight: 700;
+line-height: normal; 
+}
+.offer h3{
+    color: #F00;
+    text-align: center;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.offer h2{
+    color: #070211;
+text-align: center;
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.third_part{
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url(../resources/Vectorrr.png);
+    width: 1320px;
+    height: 600px;
+    border-radius: 16px;
+    margin: 50px auto;
+    /* background-image: url(../resources/Group\ 70.png); */
+    display: flex;
+}
+.third_pic h1{
+    color: #FFF;
+    /* I used inline and margin left to shift the line */
+    display: inline-block; 
+    margin-left:2em;
+    margin-top: 2em;
+    width: 642px;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px; /* 137.5% */
+    letter-spacing: 7.04px;
+}
+.third_pic p{
+    color: rgba(255, 255, 255, 0.80);
+    /* I used inline and margin left to shift the line */
+    display: inline-block; 
+    margin-left:7em;
+    margin-top: 1em; 
+    width: 697px;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+.third_pic button{
+    color: white;
+    background: black;
+    display: inline-block; 
+    margin-left:9em;
+    margin-top: 1em; 
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+} 
+.forth_pic img{
+    display: flex;
+    width: 319.83px;
+    height: 464.662px;
+/* top right bottom left */
+    padding: 70px 130px 0.006px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+
+} 
+.article {
+    width: 40%;
+   /*margin-left: auto;
+   margin-right: auto;
+   margin-top: 60px;
+   margin-bottom: 60px; */
+   margin: 60px auto;
+   /* TB LR */
+   padding: 60px;
+   /* background-color:cornflowerblue; */
+   background: linear-gradient(45deg,white,pink);
+   border-width: 15px;
+   border-radius: 40px;
+   border-style: groove;
+   
+}
+.article p{
+    color: #070211;
+    text-align: center;
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: 56px;
+text-transform: capitalize;
+}
+.article p .sub_article{
+    color: #F00;
+}
+.article button{
+    /* display: inline-flex; */
+padding: 16px 32px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 8px;
+background: #F00;
+margin-left: 25em;
+
+font-size: 20px;
+     font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+    text-transform: uppercase;
+
+}
+.main_4{
+    
+        width: 40%;
+       
+       /* TB LR */
+       padding: 60px;
+       
+       border-width: 15px;
+       border-style: groove;
+        display: flex;
+        flex-direction: row;
+        height: 400px;
+        background: #fff;
+        border-radius: 40px;
+        margin: 50px auto;
+    
+}
+.main_4_sub h2{
+    color: #F00;
+}
+.main_4_sub{
+    display: inline-block; 
+    margin-left:3em;
+    margin-top: 1em;
+    font-family: Merriweather;
+    
+    font-style: normal;
+    font-weight: 900;
+}
+.main__ img{
+    background-size: cover;
+    border-width: 15px;
+    width: 403px;
+    flex-shrink: 0;
+    border-radius: 463px;
+    border: 15px solid #F00;
+}
